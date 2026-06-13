@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rtr. Hari Singh | Executive Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background-color: #030712; color: #f3f4f6; font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .glow-card { background: rgba(17, 24, 39, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.05); transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .glow-card:hover { border: 1px solid rgba(59, 130, 246, 0.4); box-shadow: 0 0 30px rgba(59, 130, 246, 0.1); transform: translateY(-5px); }
+        .text-gradient { background: linear-gradient(to right, #60a5fa, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .grid-bg { background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.03) 1px, transparent 0); background-size: 40px 40px; }
+        .nav-blur { background: rgba(3, 7, 18, 0.85); backdrop-filter: blur(12px); }
+        .poetry-font { font-family: serif; font-style: italic; }
+        .img-zoom { transition: transform 0.3s ease; border: 1px solid rgba(255,255,255,0.1); }
+        .img-zoom:hover { transform: scale(1.05); border-color: rgba(59, 130, 246, 0.5); }
+    </style>
+</head>
+<body class="grid-bg">
+
+    <nav class="fixed w-full z-50 top-0 nav-blur border-b border-white/5">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-extrabold tracking-tighter italic">HARI<span class="text-blue-500">.</span></span>
+            <div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest text-gray-400">
+                <a href="#about" class="hover:text-white transition">About</a>
+                <a href="#projects" class="hover:text-white transition">Projects</a>
+                <a href="#vault" class="hover:text-white transition">Evidence Vault</a>
+                <a href="#academics" class="hover:text-white transition">Academics</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-48 pb-24 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="px-4 py-1.5 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-[10px] font-bold uppercase tracking-widest">
+                CSIT Student | Hon. Secretary | Tech for Social Good
+            </span>
+            <h1 class="text-6xl md:text-8xl font-extrabold mt-10 mb-8 tracking-tighter leading-none">
+                Rtr. Hari <span class="text-gradient">Singh</span>
+            </h1>
+            <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10">
+                Engineering intelligent systems with a poetic touch. Specializing in AI/ML, Embedded Systems, and Strategic Leadership.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://github.com/HariSingh6265" target="_blank" class="bg-white text-black px-8 py-4 rounded-full font-bold hover:bg-gray-200 transition">GitHub Profile</a>
+                <a href="https://www.linkedin.com/in/hari-singh-2a519a27a" target="_blank" class="bg-gray-900 border border-white/10 text-white px-8 py-4 rounded-full font-bold hover:bg-gray-800 transition">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 max-w-6xl mx-auto px-6">
+        <h2 class="text-2xl font-bold mb-12 flex items-center">
+            <span class="w-12 h-[1px] bg-blue-500 mr-4"></span> TECHNICAL PORTFOLIO
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="glow-card p-8 rounded-[2rem] flex flex-col">
+                <div class="text-blue-500 mb-6 text-2xl"><i class="fa-solid fa-seedling"></i></div>
+                <h3 class="text-xl font-bold mb-3">KisanConnect</h3>
+                <p class="text-gray-400 text-sm leading-relaxed mb-6">A direct marketplace with real-time price dashboards, eliminating middlemen using Firebase and Gemini AI.</p>
+                <div class="mt-auto flex flex-wrap gap-2">
+                    <span class="text-[9px] font-black px-2 py-1 bg-blue-500/10 text-blue-400 rounded">FIREBASE</span>
+                    <span class="text-[9px] font-black px-2 py-1 bg-blue-500/10 text-blue-400 rounded">GEMINI AI</span>
+                </div>
+            </div>
+            <div class="glow-card p-8 rounded-[2rem] flex flex-col">
+                <div class="text-purple-500 mb-6 text-2xl"><i class="fa-solid fa-eye"></i></div>
+                <h3 class="text-xl font-bold mb-3">AniGuard AI</h3>
+                <p class="text-gray-400 text-sm leading-relaxed mb-6">Real-time animal detection specialized in overcoming <strong>Night-time</strong> challenges using YOLOv8 and ESP32-CAM.</p>
+                <div class="mt-auto flex flex-wrap gap-2">
+                    <span class="text-[9px] font-black px-2 py-1 bg-purple-500/10 text-purple-400 rounded">YOLOv8</span>
+                    <span class="text-[9px] font-black px-2 py-1 bg-purple-500/10 text-purple-400 rounded">ESP32-CAM</span>
+                </div>
+            </div>
+            <div class="glow-card p-8 rounded-[2rem] flex flex-col">
+                <div class="text-green-500 mb-6 text-2xl"><i class="fa-solid fa-recycle"></i></div>
+                <h3 class="text-xl font-bold mb-3">Civic Waste AI</h3>
+                <p class="text-gray-400 text-sm leading-relaxed mb-6">A custom-built Computer Vision model for waste segregation, promoting sustainable smart-city initiatives.</p>
+                <div class="mt-auto flex flex-wrap gap-2">
+                    <span class="text-[9px] font-black px-2 py-1 bg-green-500/10 text-green-400 rounded">CV MODEL</span>
+                    <span class="text-[9px] font-black px-2 py-1 bg-green-500/10 text-green-400 rounded">HACKATHON</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vault" class="py-20 bg-black/30 border-y border-white/5">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-12 flex items-center">
+                <span class="w-12 h-[1px] bg-yellow-500 mr-4"></span> EVIDENCE VAULT & VERIFIED RECORDS
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glow-card p-6 rounded-[2.5rem]">
+                    <h3 class="text-lg font-bold mb-4 flex items-center"><i class="fa-solid fa-camera-retro mr-2 text-blue-400"></i> Rotaract Journey</h3>
+                    <div class="grid grid-cols-2 gap-2 mb-4">
+                        <img src="ullhas-event.jpg" class="rounded-xl img-zoom h-24 w-full object-cover" alt="Event">
+                        <img src="meeting.jpg" class="rounded-xl img-zoom h-24 w-full object-cover" alt="Meeting">
+                        <img src="team.jpg" class="rounded-xl img-zoom h-24 w-full object-cover" alt="Team">
+                        <img src="service.jpg" class="rounded-xl img-zoom h-24 w-full object-cover" alt="Service">
+                    </div>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-widest leading-relaxed">Management & Execution of District 3040 Events</p>
+                </div>
+
+                <div class="glow-card p-6 rounded-[2.5rem]">
+                    <h3 class="text-lg font-bold mb-4 flex items-center"><i class="fa-solid fa-file-shield mr-2 text-purple-400"></i> Global Certifications</h3>
+                    <div class="space-y-3">
+                        <a href="NVIDIA_ML.pdf" target="_blank" class="block bg-white/5 p-3 rounded-xl border border-white/10 hover:border-green-500 transition flex justify-between items-center group">
+                            <div class="text-left"><span class="text-[10px] block font-bold text-green-400 uppercase">NVIDIA</span><span class="text-xs">Fundamentals of Deep Learning</span></div>
+                            <i class="fa-solid fa-certificate text-green-400 group-hover:scale-110 transition"></i>
+                        </a>
+                        <a href="Google_Cloud.pdf" target="_blank" class="block bg-white/5 p-3 rounded-xl border border-white/10 hover:border-blue-500 transition flex justify-between items-center group">
+                            <div class="text-left"><span class="text-[10px] block font-bold text-blue-400 uppercase">Google Cloud</span><span class="text-xs">Generative AI Leader Track</span></div>
+                            <i class="fa-solid fa-cloud text-blue-400 group-hover:scale-110 transition"></i>
+                        </a>
+                        <a href="Cisco_Virtual_Internship.pdf" target="_blank" class="block bg-white/5 p-3 rounded-xl border border-white/10 hover:border-red-500 transition flex justify-between items-center group">
+                            <div class="text-left"><span class="text-[10px] block font-bold text-red-500 uppercase">Cisco Academy</span><span class="text-xs">Intro to Cybersecurity</span></div>
+                            <i class="fa-solid fa-shield-halved text-red-500 group-hover:scale-110 transition"></i>
+                        </a>
+                        <a href="nDK_Fundamental_1.pdf" target="_blank" class="block bg-white/5 p-3 rounded-xl border border-white/10 hover:border-yellow-500 transition flex justify-between items-center group">
+                            <div class="text-left"><span class="text-[10px] block font-bold text-yellow-500 uppercase">Nordic Semi</span><span class="text-xs">nRF SDK Fundamentals</span></div>
+                            <i class="fa-solid fa-microchip text-yellow-500 group-hover:scale-110 transition"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="glow-card p-6 rounded-[2.5rem]">
+                    <h3 class="text-lg font-bold mb-4 flex items-center"><i class="fa-solid fa-laptop-code mr-2 text-green-400"></i> Project Visuals</h3>
+                    <div class="grid grid-cols-1 gap-2 mb-4">
+                        <img src="kisan-ui.jpg" class="rounded-xl img-zoom h-30 w-50 object-cover" alt="App UI">
+                        <img src="aniguard-hardware.jpg" class="rounded-xl img-zoom h-30 w-50 object-cover" alt="Hardware">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="academics" class="py-24 max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-16">
+        <div>
+            <h2 class="text-2xl font-bold mb-12 flex items-center">
+                <span class="w-8 h-[1px] bg-white/20 mr-4"></span> ACADEMIC FOUNDATION
+            </h2>
+            <div class="space-y-6">
+                <div class="bg-white/5 p-6 rounded-2xl border border-white/5">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="text-blue-400 font-bold text-sm uppercase italic">B.Tech (CSIT)</span>
+                        <span class="bg-blue-500/20 text-blue-400 text-xs px-2 py-1 rounded font-bold">7.36 CGPA</span>
+                    </div>
+                    <h4 class="text-lg font-bold">Acropolis Institute (AITR), Indore</h4>
+                    <p class="text-gray-500 text-sm mt-2">Core: Machine Learning, DSA, CPP, Embedded Systems</p>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-white/5 p-4 rounded-2xl border border-white/5 text-center">
+                        <span class="text-gray-500 text-[10px] font-bold uppercase">Class XII</span>
+                        <div class="text-xl font-bold">74.4%</div>
+                    </div>
+                    <div class="bg-white/5 p-4 rounded-2xl border border-white/5 text-center">
+                        <span class="text-gray-500 text-[10px] font-bold uppercase">Class X</span>
+                        <div class="text-xl font-bold">82.9%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="text-2xl font-bold mb-12 flex items-center">
+                <span class="w-8 h-[1px] bg-white/20 mr-4"></span> LEADERSHIP JOURNEY
+            </h2>
+            <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:h-full before:w-0.5 before:bg-blue-500/20">
+                <div class="relative pl-12 group">
+                    <div class="absolute left-0 w-10 h-10 rounded-full border border-blue-500 bg-gray-900 flex items-center justify-center text-blue-500"><i class="fa-solid fa-users-gear text-xs"></i></div>
+                    <div class="p-4 rounded-xl glow-card">
+                        <time class="font-bold text-blue-400 text-xs uppercase tracking-widest">2025 - Present</time>
+                        <div class="font-bold text-white uppercase">Hon. Secretary, (Rotaract Club of Acropolis Professionals)</div>
+                        <p class="text-xs text-gray-500 mt-1 italic">Led my club to be the best working club in Quarter 1 (JULY - SEPTEMBER).</p>
+                    </div>
+                </div>
+
+                <div class="relative pl-12 group">
+                    <div class="absolute left-0 w-10 h-10 rounded-full border border-blue-500 bg-gray-900 flex items-center justify-center text-blue-500"><i class="fa-solid fa-users-gear text-xs"></i></div>
+                    <div class="p-4 rounded-xl glow-card">
+                        <time class="font-bold text-blue-400 text-xs uppercase tracking-widest">2024 - 2025</time>
+                        <div class="font-bold text-white uppercase">Community Service Director (Rotaract Club of Acropolis Professionals)</div>
+                        <p class="text-xs text-gray-500 mt-1 italic">Best club working under district projects like Aashitah, Matritva and many more</p>
+                    </div>
+                </div>
+
+                <div class="relative pl-12 group">
+                    <div class="absolute left-0 w-10 h-10 rounded-full border border-purple-500 bg-gray-900 flex items-center justify-center text-purple-500"><i class="fa-solid fa-star text-xs"></i></div>
+                    <div class="p-4 rounded-xl glow-card">
+                        <time class="font-bold text-purple-400 text-xs uppercase tracking-widest">School Prefect (8th) and House Captain (9th) </time>
+                        <div class="font-bold text-white italic">Vindhyachal Academy</div>
+                        <p class="text-xs text-gray-500 mt-1">Led my house to be the best performing house consecutively 2 years in Class VIII & IX.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
+        <div>
+            <h2 class="text-4xl font-extrabold mb-6 tracking-tighter text-gradient">About Me</h2>
+            <p class="text-gray-400 leading-relaxed mb-8 text-lg">
+                I am a Computer Science & IT student at AITR Indore with a deep-seated passion for transforming complex algorithms into real-world solutions[cite: 4]. My work sits at the intersection of AI, Machine Learning, and Embedded Systems. I believe technology's greatest value lies in solving civic and social challenges, a philosophy I carry into my role as Hon. Secretary of the Rotaract Club of Acropolis Professionals.
+            </p>
+
+            <div class="grid grid-cols-2 gap-4 mb-8">
+                <div class="bg-white/5 p-4 rounded-xl border border-white/5"><span class="text-blue-400 text-xs font-bold uppercase block mb-1">Current Focus</span><span class="text-sm text-gray-300">Object Detection & Scalability</span></div>
+                <div class="bg-white/5 p-4 rounded-xl border border-white/5"><span class="text-purple-400 text-xs font-bold uppercase block mb-1">Leadership</span><span class="text-sm text-gray-300">Managing 50+ Volunteers</span></div>
+                <div class="bg-white/5 p-4 rounded-xl border border-white/5"><span class="text-pink-400 text-xs font-bold uppercase block mb-1">Creative Brand</span><span class="text-sm text-gray-300">HS29_WRITES Poetry</span></div>
+                <div class="bg-white/5 p-4 rounded-xl border border-white/5"><span class="text-green-400 text-xs font-bold uppercase block mb-1">Location</span><span class="text-sm text-gray-300">Bhopal | Indore</span></div>
+            </div>
+
+            <div class="bg-blue-500/5 p-8 rounded-3xl border border-blue-500/10">
+                <p class="poetry-font text-2xl text-gray-300 leading-relaxed italic italic">"Why is it said that a broken trust, is a structure mend of a glass burst."</p>
+                <p class="mt-4 text-[10px] font-bold uppercase tracking-[0.3em] text-blue-500">— HS29_WRITES</p>
+            </div>
+        </div>
+        
+        <div class="glow-card p-10 rounded-[3rem]">
+            <h3 class="text-xl font-bold mb-8 uppercase tracking-widest text-gray-500">Contact & Socials</h3>
+            <div class="space-y-6">
+                <div class="flex items-center space-x-4">
+                    <a href="https://www.linkedin.com/in/hari-singh-2a519a27a" target="_blank" class="w-12 h-12 rounded-xl bg-blue-600/10 flex items-center justify-center hover:bg-blue-600 transition"><i class="fa-brands fa-linkedin-in text-blue-400"></i></a>
+                    <a href="https://github.com/HariSingh6265" target="_blank" class="w-12 h-12 rounded-xl bg-white/5 flex items-center justify-center hover:bg-white/20 transition"><i class="fa-brands fa-github text-white"></i></a>
+                    <a href="https://instagram.com/hs29_writes" target="_blank" class="w-12 h-12 rounded-xl bg-pink-600/10 flex items-center justify-center hover:bg-pink-600 transition"><i class="fa-brands fa-instagram text-pink-500"></i></a>
+                </div>
+                <div class="pt-6 border-t border-white/5">
+                    <p class="text-xs text-gray-500 uppercase tracking-widest font-bold mb-2">Direct Mail</p>
+                    <a href="mailto:hari.singh@gmail.com" class="text-2xl font-bold hover:text-blue-400 transition">hari.singh@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center opacity-30 italic text-xs tracking-widest">ENGINEERING IMPACT • 2026</footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.glow-card', { delay: 200, distance: '30px', origin: 'bottom', interval: 100 });
+    </script>
+</body>
+</html>
